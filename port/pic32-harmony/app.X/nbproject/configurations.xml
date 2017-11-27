@@ -211,7 +211,7 @@
         </logicalFolder>
         <logicalFolder name="f1" displayName="platform-embedded" projectFiles="true">
           <itemPath>../../../platform/embedded/btstack_run_loop_embedded.c</itemPath>
-          <itemPath>../../../platform/embedded/btstack_uart_block_embedded.c</itemPath>
+          <itemPath>../../../platform/embedded/btstack_uart_embedded.c</itemPath>
         </logicalFolder>
         <logicalFolder name="src" displayName="src" projectFiles="true">
           <itemPath>../../../src/btstack_memory.c</itemPath>

@@ -47,7 +47,7 @@
 #define __HCI_TRANSPORT_H
 
 #include <stdint.h>
-#include "btstack_uart_block.h"
+#include "btstack_uart.h"
 #include "btstack_uart_slip.h"
 #include "btstack_run_loop.h"
 
@@ -136,7 +136,7 @@ typedef struct {
  * @brief Setup H4 instance with uart_driver
  * @param uart_driver to use 
  */
-const hci_transport_t * hci_transport_h4_instance(const btstack_uart_block_t * uart_driver);
+const hci_transport_t * hci_transport_h4_instance(const btstack_uart_t * uart_driver);
 
 /*
  * @brief Setup H5 instance with uart_driver
